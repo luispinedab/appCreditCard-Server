@@ -37,4 +37,6 @@ una vez se hallan insertado los registros anteriores, usted podra hacer login en
 ##
 `nickname:admin`
 `password:1234`
-esos datos son los que acaba de insertar en la base de datos.
+##
+
+esos datos son los que se insertaron recientemente en la base de datos.
