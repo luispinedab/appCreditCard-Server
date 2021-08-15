@@ -30,7 +30,7 @@ Cuando inicie el servidor se crearán las tablas automaticamente, de manera que 
 Values(1,'Admin'),(2,'Client')`.
 Despues de esto se debe insertar el usuario administrador que es el que permitirá hacer el login a nuestro sistema. Para ello es necesario ejecutar el siguiente script: 
 ##
-`insert into CreditCards.dbo.user
+`insert into dbo.user
 VALUES(1,'prueba','prueba',123456,'admin','b44b5b7e08afec7c59fd1658b57c0b89455f8842b0df90f01de59d4e152440c9ccbc7db0b58d988421badcdd2f60180d5611544796325a1edf4a5d9da3a9d9dae5511ac48514fa51151991105a6d52ef9eb7c64512af2e167ae3cff4fcb03a114c4a2ae6',1,2021-08-15,2021-08-15)`
 ## LOGIN
 una vez se hallan insertado los registros anteriores, usted podra hacer login en el sistema con los siguientes datos:
