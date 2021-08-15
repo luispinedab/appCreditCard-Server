@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var express_1 = require("express");
+var router = express_1.Router();
+var creditcard_controller_1 = require("../controllers/creditcard.controller");
+router.get('/creditcards', creditcard_controller_1.getCreditCards);
+router.get('/creditcards/:id', creditcard_controller_1.getCreditCard);
+router.post('/creditcard', creditcard_controller_1.createCreditCard);
+router.put('/creditcards/:id', creditcard_controller_1.updateCreditCard);
+router.delete('/creditcards/:id', creditcard_controller_1.deleteCreditCard);
+exports.default = router;
